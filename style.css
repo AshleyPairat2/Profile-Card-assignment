@@ -1,20 +1,29 @@
 body {
-  font-family: 'Segoe UI', sans-serif;
+    
+  background: linear-gradient(135deg, #f3f4f8, #dce3ff);
+  font-family: 'Poppins', sans-serif;
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100vh;
-  background: #f0f4ff;
   margin: 0;
 }
 
 .card {
-  background: #fff;
+  background: linear-gradient(to bottom, #ffffff, #f9f9ff);
   border-radius: 20px;
   box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
   text-align: center;
   width: 300px;
   overflow: hidden;
+  border-radius: 20px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+}
+
+.card .top {
+  background: linear-gradient(90deg, #7f74ff, #917cff);
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
 }
 
 .header {
@@ -98,4 +107,10 @@ p {
 
 .stats i {
   margin-right: 5px;
+}
+
+.card:hover {
+  transform: scale(1.02);
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.15);
+  transition: all 0.3s ease-in-out;
 }
