@@ -1,0 +1,101 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: #f0f4ff;
+  margin: 0;
+}
+
+.card {
+  background: #fff;
+  border-radius: 20px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  width: 300px;
+  overflow: hidden;
+}
+
+.header {
+  height: 100px;
+  background: linear-gradient(to right, #4d9cf5, #7d58f3);
+}
+
+.profile-pic {
+  margin-top: -50px;
+}
+
+.profile-pic img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  border: 5px solid white;
+  object-fit: cover;
+}
+
+h2 {
+  margin: 10px 0 5px;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+p {
+  color: gray;
+  font-size: 14px;
+  margin-bottom: 15px;
+}
+
+.socials {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-bottom: 15px;
+}
+
+.socials a {
+  color: #555;
+  font-size: 18px;
+  transition: color 0.3s;
+}
+
+.socials a:hover {
+  color: #4d9cf5;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-bottom: 15px;
+}
+
+.subscribe-btn,
+.message-btn {
+  padding: 8px 16px;
+  border: none;
+  border-radius: 25px;
+  background: linear-gradient(to right, #4d9cf5, #7d58f3);
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  transition: opacity 0.3s;
+}
+
+.subscribe-btn:hover,
+.message-btn:hover {
+  opacity: 0.8;
+}
+
+.stats {
+  display: flex;
+  justify-content: space-around;
+  padding: 10px 0 20px;
+  border-top: 1px solid #eee;
+  font-size: 14px;
+  color: #555;
+}
+
+.stats i {
+  margin-right: 5px;
+}
